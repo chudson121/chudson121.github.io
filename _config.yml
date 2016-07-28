@@ -1,13 +1,2 @@
-# Site wide configuration
+permalink: /notes/:year/:month/:day/:title
 markdown: kramdown
-highlighter: rouge
-excerpt_separator: ""
-encoding: UTF-8
-name: Hudson
-description: Automation
-url: https://chudson121.github.io 
-repository: https://github.com/chudson121/chudson121.github.io
-
-# breadcrumbs            : false # true, false (default)
-permalink: /blog/:year/:month/:day/:title/
-permalink: /news/:year/:month/:day/:title
