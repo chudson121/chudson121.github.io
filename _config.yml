@@ -1,13 +1,13 @@
 # Site wide configuration
-locale                   : "en-US"
-encoding                 : UTF-8
-title                    : "Home"
-title_separator          : "-"
-name                     : &name "Hudson"
-description              : &description "Automation"
-url                      : https://chudson121.github.io # overridden by _config-dev.yml during jekyll serve.
-github:
-   repo:  https://github.com/chudson121/chudson121.github.io
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: ""
+encoding: UTF-8
+name: Hudson
+description: Automation
+url: https://chudson121.github.io 
+repository: https://github.com/chudson121/chudson121.github.io
+
 # breadcrumbs            : false # true, false (default)
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:year/:month/:day/:title/
+permalink: /news/:year/:month/:day/:title
