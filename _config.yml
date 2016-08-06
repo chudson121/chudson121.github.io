@@ -1,2 +1,7 @@
-permalink: /notes/:year/:month/:day/:title
+permalink: /blog/:year/:month/:day/:title
 markdown: kramdown
+
+# Includes an icon in the footer for each user name you enter
+footer-links:
+  github: chris@devopsbastard.com
+  twitter: chris@devopsbastard.com

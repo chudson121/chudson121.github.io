@@ -5,10 +5,10 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Notes from Chris Hudson</title>
- <link href="https://chudson121.github.io/blog/atom.xml" rel="self"/>
- <link href="https://chudson121.github.io/blog/"/>
+ <link href="https://www.devopsbastard.com/blog/atom.xml" rel="self"/>
+ <link href="https://www.devopsbastard.com/blog/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>https://chudson121.github.io/blog/</id>
+ <id>https://www.devopsbastard.com/blog/</id>
  <author>
    <name>Chris Hudson</name>
    <!-- <email></email> -->
@@ -17,9 +17,9 @@ layout: feed
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="https://chudson121.github.io/{{ post.url }}"/>
+   <link href="https://www.devopsbastard.com/{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>https://chudson121.github.io/blog{{ post.id }}</id>
+   <id>https://www.devopsbastard.com/blog{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
