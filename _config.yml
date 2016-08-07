@@ -1,3 +1,11 @@
+# use where a full URL is appropriate (e.g. RSS, OG tags)
+url: http://DevOpsBastard.com
+
+# blog archive at /news
+paginate: 5
+paginate_path: "blog/page/:num"
+
+
 permalink: /blog/:year/:month/:day/:title
 markdown: kramdown
 
