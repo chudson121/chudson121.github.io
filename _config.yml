@@ -1,4 +1,14 @@
-permalink: /blog/:year/:month/:day/:title
+# use where a full URL is appropriate (e.g. RSS, OG tags)
+url: http://DevOpsBastard.com
+
+# blog archive at /news
+paginate: 5
+paginate_path: "blog/page/:num"
+
+#force Jekylle to show future posts immediatly
+future: true
+
+#permalink: /blog/:year/:month/:day/:title
 markdown: kramdown
 
 # Includes an icon in the footer for each user name you enter
