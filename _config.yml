@@ -1,5 +1,7 @@
 # use where a full URL is appropriate (e.g. RSS, OG tags)
 url: http://DevOpsBastard.com
+domain: devopsbastard.com
+contact: chris@devopsbastard.com
 
 # blog archive at /news
 paginate: 5
@@ -13,5 +15,4 @@ markdown: kramdown
 
 # Includes an icon in the footer for each user name you enter
 footer-links:
-  github: chris@devopsbastard.com
-  twitter: chris@devopsbastard.com
+

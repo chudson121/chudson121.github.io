@@ -1,6 +1,6 @@
-chudson121.github.io
+Just a place holder see index.html for real stuff
 ========
-https://www.devopsbastard.com/ 
+
 
 
 

@@ -4,22 +4,22 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Notes from Chris Hudson</title>
- <link href="https://www.devopsbastard.com/blog/atom.xml" rel="self"/>
- <link href="https://www.devopsbastard.com/blog/"/>
+ <title>Notes from {{site.domain}}</title>
+ <link href="{{site.domain}}/blog/atom.xml" rel="self"/>
+ <link href="{{site.domain}}/blog/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>https://www.devopsbastard.com/blog/</id>
+ <id>{{site.domain}}/blog/</id>
  <author>
-   <name>Chris Hudson</name>
+   <name>{{site.contact}}</name>
    <!-- <email></email> -->
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="https://www.devopsbastard.com/{{ post.url }}"/>
+   <link href="{{site.domain}}/{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>https://www.devopsbastard.com/blog{{ post.id }}</id>
+   <id>{{site.domain}}/blog{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
