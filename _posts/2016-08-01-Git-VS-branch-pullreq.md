@@ -1,3 +1,7 @@
+---
+layout: post
+title: Git Visual Studio Branches and Pull Requests
+---
 ##Flow
 Master ==> UserStoryBranch ==> Local Dev ==> Commit changes ==>	
 push UserStoryBranch ==> Pull Request ==> Master ==> Build ==> Deploy Test
