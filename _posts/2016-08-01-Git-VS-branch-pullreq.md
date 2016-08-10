@@ -16,7 +16,7 @@ push UserStoryBranch ==> Pull Request ==> Master ==> Build ==> Deploy Test
 {% include image.html name="vsbranches1.png" %}
 
 2. On the Branches page, right-click on the master branch and choose New Local Branch From... to create a new topic branch.
-![](assests/posts/2016-08-01-Git-VS-branch-pullreq/vsbranches1.png)
+![](assests/posts/2016-08-01-git-vs-branch-pullreq/vsbranches1.png)
 
 {% include image.html name="vsbranchesnewlocal.png" %}
 
