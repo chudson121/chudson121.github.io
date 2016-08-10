@@ -27,7 +27,7 @@ then in VS you click the clone button (verify the path you want the source code 
 Comments Format:  
 `#<userstoryNumber- my comment here to associate changeset with the user story. `
  
-#TFS Certificates 
+# TFS Certificates 
 ## For Mac's:
 - To resolve the SSL certificate issue on the Mac, Use Safari open https://tfsserver/tfs.  
 - At that point I got an SSL error saying it could not verify the server.  
@@ -63,7 +63,7 @@ After installing GIT:
 - Modify C:\Program Files\Git\mingw64\ssl\certs\ca-bundle.crt (windows)  
 - Add root ssl cert at end of file  
 	
-##Configure Nuget
+## Configure Nuget
 - Visual Studio
 - tools --> options
 - nuget package manager

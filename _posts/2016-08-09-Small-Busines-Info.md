@@ -3,8 +3,8 @@ layout: post
 title: Small Busines Info
 tags: Small Business
 ---
-#Small Business Info
-#License
+# Small Business Info
+# License
 	Florida Info
 	
 	Florida Division of Corporations
@@ -56,7 +56,7 @@ Creating a comprehensive business
 plan can be a long process, and you
 need good advice. The SBA and its 
 
-#Introduction
+# Introduction
 • Give a detailed description of the
 business and its goals.
 • Discuss ownership of the
@@ -66,7 +66,8 @@ bring to the business.
 • Discuss the advantages you
 and your business have over
 competitors.
-#Marketing
+
+# Marketing
 • Discuss the products and services
 your company will offer.
 • Identify customer demand for your
@@ -87,7 +88,8 @@ for a two-year period.
 • Discuss your break-even point.
 • Explain your personal
 balance sheet and method of
-#compensation.
+
+# compensation.
 • Discuss who will maintain your
 accounting records and how they
 will be kept.
@@ -95,7 +97,8 @@ will be kept.
 addressing alternative
 approaches to potential
 problems.
-#Operations
+
+# Operations
 - Projections of income expenses and cash flow
 • Explain how the business will be
 managed day-to-day.
@@ -108,7 +111,8 @@ necessary to produce your goods
 or services.
 • Account for production and
 delivery of products and services.
-#Concluding Statement
+
+# Concluding Statement
 Summarize your business goals
 and objectives and express your
 commitment to the success of your
@@ -125,5 +129,5 @@ Remember, the business plan is a
 flexible document that should change as business grows
 
 
-#References
+# References
 [SBA Resource](https://www.sba.gov/sites/default/files/files/resourceguide_3109.pdf)

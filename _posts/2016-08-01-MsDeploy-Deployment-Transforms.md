@@ -3,13 +3,13 @@ layout: post
 title: MSDeploy Deployment time transforms (environment transforms)
 tags: msdeploy, webdeploy, deployment transforms, environment
 ---
-#3 steps
+# 3 steps
 - Create/have a Config file with entries (web.config)
 - Parameters.xml file --> what to replace and where to replace it
 - Setparameters.xml --> take the mappings in parameters and replace those values with what's specified
 
 
-#Parameters.xml 
+# Parameters.xml 
 mapping of web.config (or any file) and variable name for tokens; uses xpath to match. You can map the tokens, no failures will occur if they are not used.
 
 	  <parameter name="appSettings.Environment" description="Please enter the name of the Environment" defaultvalue="__EnvironmentName__" tags="">
@@ -17,7 +17,7 @@ mapping of web.config (or any file) and variable name for tokens; uses xpath to 
 	    </parameterentry>
 	  </parameter>
 	
-#SetParameters.xml 
+# SetParameters.xml 
 Replacement values for the tokens
 
 	<setParameter name="appSettings.Environment" value="Production" />
@@ -31,7 +31,7 @@ Those are controlled with global overrides contact devops (API Keys, passwords, 
 		\Deployment\TEST.SetParameters.xml (No Sensitive data)
 		\Deployment\PROD.SetParameters.xml (No Sensitive data)
 	
-#Global overrides (\\iwgdev6\c$\Program Files (x86)\Jenkins\userContent\Transforms\)
+# Global overrides (\\iwgdev6\c$\Program Files (x86)\Jenkins\userContent\Transforms\)
 
 - App Settings
 	Environment, version, customErrors, showTestPage, compilationDebug, EmailAlertBcc, ErrorEmailTo, LogErrorToDatabase, ItWorksContextProduction
@@ -52,7 +52,7 @@ During Build application Code\parameters.xml is combined with global_Parameters.
 
 	CALL "%JENKINS_HOME%\userContent\CompileNet\ConfigTransforms.bat" %PARAMETERSPATH%
 
-#Deployment time (DO_DeployPackage)
+# Deployment time (DO_DeployPackage)
 
 - These 2 variables are overridden via command line 
 

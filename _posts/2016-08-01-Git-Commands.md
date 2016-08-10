@@ -3,9 +3,9 @@ layout: post
 title: Git command line revert
 tags: Git, revert
 ---
-##Git Commands
+## Git Commands
 
-#Gitting Older Versions
+# Gitting Older Versions
 Use `git log` to find the revision you want to rollback to, and take note of the commit hash.
 checkout to a new branch: `git checkout -b <new_branch_name> <hash>`
 
@@ -26,9 +26,9 @@ Example:
     $ git checkout -b revertedCodeBranch 4553c1466c437bdd0b4e7bb35ed238cb5b39d7e7
     HEAD is now at 4553c14... Missing constness.
     
-#Return to Latest version
+# Return to Latest version
 		git checkout master
 
-#Revert commit - Non Destructive history
+# Revert commit - Non Destructive history
 	git revert <hash>
 

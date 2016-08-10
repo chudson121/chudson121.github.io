@@ -15,6 +15,6 @@ tags: Git, Visual Studio
 
 
 
-#Commit --> only local
-#Commit Push --> remote repo
-#Commit and Synch --> commit, pull and then push
+# Commit --> only local
+# Commit Push --> remote repo
+# Commit and Synch --> commit, pull and then push

@@ -3,8 +3,8 @@ layout: post
 title: Git clone
 tags: Git, 
 ---
-#How do I clone a repo
-##Website Navigation - 
+# How do I clone a repo
+## Website Navigation - 
 Example on cloning a GIT repo in Visual Studio
 		
 	- https://<tfsserver>/tfs/DefaultCollection/_git/<RepoName> 
@@ -14,7 +14,7 @@ Example on cloning a GIT repo in Visual Studio
 	- you should see the solution file in the home part of team explorer inside VS
  
 		
-##From Within Visual studio
+## From Within Visual studio
 
 	- Click on Team Explorer Tab, Select Home
 	if git server is already mapped  
@@ -25,7 +25,7 @@ Example on cloning a GIT repo in Visual Studio
 	- you should see the solution file in the home part of team explorer inside VS
 	- Double click it
 
-#How do I update my local Git repositories with the latest changes made?
+# How do I update my local Git repositories with the latest changes made?
 
 	- Update your master repo
 	- double click on the local repo
@@ -33,7 +33,7 @@ Example on cloning a GIT repo in Visual Studio
 	- right click on master 
 	- click pull
  
-Merge into your local branch
+# Merge into your local branch
 
 	- Right click on the branch
 	- Click merge from
@@ -41,7 +41,7 @@ Merge into your local branch
 	- Into current branch: your local repo
 	- Resolve conflicts…. If any
 
-#How to I resolve the missing references in my project?
+# How to I resolve the missing references in my project?
 	
 	- Right click on the solution (not the project but solution itself)
 	- Click restore nuget packages.
