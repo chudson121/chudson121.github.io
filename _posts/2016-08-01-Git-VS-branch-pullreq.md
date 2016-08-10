@@ -3,11 +3,11 @@ layout: post
 title: Git Visual Studio Branches and Pull Requests
 tags: Git, Visual Studio, Branches
 ---
-##Flow
+## Flow
 Master ==> UserStoryBranch ==> Local Dev ==> Commit changes ==>	
 push UserStoryBranch ==> Pull Request ==> Master ==> Build ==> Deploy Test
 	
-##COMMAND LINE
+## COMMAND LINE
 1. Clone the repo `git clone   https://tfsserver/tfs/DefaultCollection/_git/[repository]`
 2. Once cloned, create a new user story branch: `git checkout -b 2223`
 3. When you have changes to add to the repo, stage the files using:`git add .`
@@ -15,7 +15,7 @@ push UserStoryBranch ==> Pull Request ==> Master ==> Build ==> Deploy Test
 5. When you're ready to publish your topic branch to the repo on VSTS, push the changes:`git push origin 2223`
 6. Now you can return to the web portal to complete the pull request experience.
 
-##Visual Studio
+## Visual Studio
 1. In Team Explorer, navigate to the Branches page. 
 
 ![]({{site.url}}/img/gitbranchpullreq/vsbranches1.png)
@@ -33,7 +33,7 @@ Make a change to your app Now that you have a new topic branch, you're ready to 
 
 ![]({{site.url}}/img/gitbranchpullreq/vshelloworld.png)
 	
-#Commit
+# Commit
 1. Right-click on the file in Solution Explorer and choose Commit.
 
 ![]({{site.url}}/img/gitbranchpullreq/vscommit.png)
@@ -42,7 +42,7 @@ Make a change to your app Now that you have a new topic branch, you're ready to 
 
 ![]({{site.url}}/img/gitbranchpullreq/vschangescommit.png)
 	
-#Publish - to your REMOTE Branch (server)
+# Publish - to your REMOTE Branch (server)
 To share the changes in your topic branch, you'll need to publish it to the server.
 1. Click on the Sync link in the successful commit notification to open the Synchronization page.
 
@@ -52,7 +52,7 @@ To share the changes in your topic branch, you'll need to publish it to the serv
 
 ![]({{site.url}}/img/gitbranchpullreq/vssyncpublish.png)
 	
-#Create a pull request
+# Create a pull request
 Pull Requests are a common workflow for reviewing code created in a topic branch and merging changes. Let's create a pull request to see how it works.
 1. In your browser, open the CODE hub and click Pull Requests to view the Pull Requests hub.
 
@@ -74,7 +74,7 @@ Now you can add reviewers to get their feedback on your changes before you merge
 
 ![]({{site.url}}/img/gitbranchpullreq/webpullrequestinprogress.png)		
 
-#Completing a pull request with a merge
+# Completing a pull request with a merge
 When the review of the PR is complete and policies are passing, it’s time to merge. In the Complete Pull Request dialog, the default description for the merge commit will include a list of the work items associated with the pull request.  This is useful for anyone viewing the commit history in the future to know which work items are related, no matter what tool they’re using to view history.
 
 ![]({{site.url}}/img/gitbranchpullreq/complete-pull-request.png)
