@@ -13,66 +13,66 @@ push UserStoryBranch ==> Pull Request ==> Master ==> Build ==> Deploy Test
 ##Visual Studio
 1. In Team Explorer, navigate to the Branches page. 
 
-{% include image name="vsbranches1.png" %}
+{% include image.html name="vsbranches1.png" %}
 
 2. On the Branches page, right-click on the master branch and choose New Local Branch From... to create a new topic branch.
 
-{% include image name="vsbranchesnewlocal.png" %}
+{% include image.html name="vsbranchesnewlocal.png" %}
 
 3. Enter a name for your branch and click Create Branch. When naming your branches, use slashes to organize your branches. (You can use #<storyid> for user story branches - #123)
 
-{% include image name="vsbranchescreate.png" %}	
+{% include image.html name="vsbranchescreate.png" %}	
 	
 Make a change to your app Now that you have a new topic branch, you're ready to start making changes to your app.
 1. Add a "hello, world" message to the console app.
 
-{% include image name="vshelloworld.png" %}
+{% include image.html name="vshelloworld.png" %}
 	
 #Commit
 1. Right-click on the file in Solution Explorer and choose Commit.
 
-{% include image name="vscommit.png" %}
+{% include image.html name="vscommit.png" %}
 
 2. On the Changes page, enter a commit message and click Commit to commit the changes to your topic branch.
 
-{% include image name="vschangescommit.png" %}
+{% include image.html name="vschangescommit.png" %}
 	
 #Publish - to your REMOTE Branch (server)
 To share the changes in your topic branch, you'll need to publish it to the server.
 1. Click on the Sync link in the successful commit notification to open the Synchronization page.
 
-{% include image name="vscommitsyncmessage.png" %}		
+{% include image.html name="vscommitsyncmessage.png" %}		
 
 2. On the Sync page, click on the Publish link to push the changes on your topic branch to the server.
 
-{% include image name="vssyncpublish.png" %}
+{% include image.html name="vssyncpublish.png" %}
 	
 #Create a pull request
 Pull Requests are a common workflow for reviewing code created in a topic branch and merging changes. Let's create a pull request to see how it works.
 1. In your browser, open the CODE hub and click Pull Requests to view the Pull Requests hub.
 
-{% include image name="webpullrequesthub.png" %}		
+{% include image.html name="webpullrequesthub.png" %}		
 
 2. Click on New Pull Request to create a new pull request.
 
-{% include image name="webpullrequestnew.png" %}	
+{% include image.html name="webpullrequestnew.png" %}	
 
 3. Select your topic branch from the first drop-down. The default branch (master) is the default target branch.
 
-{% include image name="webpullrequestselectbranch.png" %}
+{% include image.html name="webpullrequestselectbranch.png" %}
 
 4. Verify that the preview contains the changes you want to review and click Create Pull Request.
 
-{% include image name="webpullrequestcreate.png" %}
+{% include image.html name="webpullrequestcreate.png" %}
 
 Now you can add reviewers to get their feedback on your changes before you merge your changes into master.
 
-{% include image name="webpullrequestinprogress.png" %}		
+{% include image.html name="webpullrequestinprogress.png" %}		
 
 #Completing a pull request with a merge
 When the review of the PR is complete and policies are passing, it’s time to merge. In the Complete Pull Request dialog, the default description for the merge commit will include a list of the work items associated with the pull request.  This is useful for anyone viewing the commit history in the future to know which work items are related, no matter what tool they’re using to view history.
 
-{% include image name="complete-pull-request.png" %}
+{% include image.html name="complete-pull-request.png" %}
 
 After the PR is merged, the related work items will be automatically linked to the merge commit.  The commit details view will show all of the linked work items.
 
