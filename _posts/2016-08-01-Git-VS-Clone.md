@@ -1,3 +1,8 @@
+---
+layout: post
+title: Git clone
+tags: Git, 
+---
 #How do I clone a repo
 ##Website Navigation - 
 Example on cloning a GIT repo in Visual Studio

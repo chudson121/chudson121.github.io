@@ -1,3 +1,8 @@
+---
+layout: post
+title: Git Instalation
+tags: Git, Visual Studio
+---
 # GIT
 ##	Installation:
 For Windows Users you can Drop to an elevated command prompt and run these commands

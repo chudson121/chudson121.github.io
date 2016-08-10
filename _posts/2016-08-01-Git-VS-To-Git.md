@@ -1,4 +1,8 @@
-
+---
+layout: post
+title: Git and Visual Studio
+tags: Git, Visual Studio
+---
 |TFVC|Git|
 |---|---|
 |Check-In|Commit + Push|

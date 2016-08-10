@@ -1,3 +1,8 @@
+---
+layout: post
+title: Small Busines Info
+tags: Small Business
+---
 #Small Business Info
 #License
 	Florida Info

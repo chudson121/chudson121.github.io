@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Git Visual Studio Branches and Pull Requests
+tags: Git, Visual Studio, Branches
 ---
 ##Flow
 Master ==> UserStoryBranch ==> Local Dev ==> Commit changes ==>	

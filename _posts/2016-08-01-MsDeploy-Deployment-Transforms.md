@@ -1,3 +1,8 @@
+---
+layout: post
+title: MSDeploy Deployment time transforms (environment transforms)
+tags: msdeploy, webdeploy, deployment transforms, environment
+---
 #3 steps
 - Create/have a Config file with entries (web.config)
 - Parameters.xml file --> what to replace and where to replace it

@@ -1,3 +1,8 @@
+---
+layout: post
+title: Jenkins Installation
+tags: Jenkins, CI/CD
+---
 # Jenkins Files and Configurations Information
 * [**Jenkins Site**](https://jenkins)
 

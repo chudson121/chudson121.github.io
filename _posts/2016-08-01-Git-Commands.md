@@ -1,3 +1,8 @@
+---
+layout: post
+title: Git command line revert
+tags: Git, revert
+---
 ##Git Commands
 
 #Gitting Older Versions
