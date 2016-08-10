@@ -16,6 +16,7 @@ push UserStoryBranch ==> Pull Request ==> Master ==> Build ==> Deploy Test
 ![]({{site.url}}/img/gitbranchpullreq/vsbranches1.png)
 
 2. On the Branches page, right-click on the master branch and choose New Local Branch From... to create a new topic branch.
+
 ![]({{site.url}}/img/gitbranchpullreq/vsbranchesnewlocal.png)
 
 3. Enter a name for your branch and click Create Branch. When naming your branches, use slashes to organize your branches. (You can use #<storyid> for user story branches - #123)
