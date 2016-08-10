@@ -4,7 +4,7 @@ title: Jenkins Installation
 tags: Jenkins, CI/CD
 ---
 # Jenkins Files and Configurations Information
-* [**Jenkins Site**](https://jenkins)
+* [**Jenkins Site**](https://www.jenkins.com)
 
 ##Troubleshooting
 Restart Jenkins from command line (make sure run as admin)
