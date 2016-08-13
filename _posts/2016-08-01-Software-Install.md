@@ -1,6 +1,6 @@
 # Software installs
 
-# Chocolatey
+## Chocolatey
 
 	REM @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 
@@ -37,7 +37,7 @@
 	choco install windowsazurepowershell -y
 	choco install winscp -y
 
-# Visual Studio Extensions
+## Visual Studio Extensions
 
 	Locate in tfs
 	Node.js Tools
@@ -49,7 +49,7 @@
 	Tfs source control explorer extension
 	Git Source Control Provider
 
-# Nuget
+## Nuget
 
 	install mvc 3
 	install team foundation client Install-Package Microsoft.TeamFoundationServer.Client -Version 14.95.3
