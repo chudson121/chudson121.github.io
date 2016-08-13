@@ -18,15 +18,15 @@ push UserStoryBranch ==> Pull Request ==> Master ==> Build ==> Deploy Test
 ## Visual Studio
 1. In Team Explorer, navigate to the Branches page. 
 
-![]({site.url}/img/gitbranchpullreq/vsbranches1.png)
+![]({{site.url}}/img/gitbranchpullreq/vsbranches1.png)
 
 2. On the Branches page, right-click on the master branch and choose New Local Branch From... to create a new topic branch.
 
-![]({site.url}/img/gitbranchpullreq/vsbranchesnewlocal.png)
+![]({{site.url}}/img/gitbranchpullreq/vsbranchesnewlocal.png)
 
 3. Enter a name for your branch and click Create Branch. When naming your branches, use slashes to organize your branches. (You can use #<storyid> for user story branches - #123)
 
-![]({site.url}/img/gitbranchpullreq/vsbranchescreate.png)	
+![]({{site.url}}/img/gitbranchpullreq/vsbranchescreate.png)	
 	
 Make a change to your app Now that you have a new topic branch, you're ready to start making changes to your app.
 1. Add a "hello, world" message to the console app.
