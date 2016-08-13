@@ -1,5 +1,6 @@
 # Software installs
 # Chocolatey
+
 	REM @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 
 	REM choco install androidstudio  -y
@@ -34,7 +35,9 @@
 	choco install webdeploy -y
 	choco install windowsazurepowershell -y
 	choco install winscp -y
+
 # Visual Studio Extensions
+
 	Locate in tfs
 	Node.js Tools
 	Nuget package manaer for vs 2015
@@ -46,6 +49,7 @@
 	Git Source Control Provider
 
 # Nuget
+
 	install mvc 3
 	install team foundation client Install-Package Microsoft.TeamFoundationServer.Client -Version 14.95.3
 	Install-Package microsoft-web-helpers
