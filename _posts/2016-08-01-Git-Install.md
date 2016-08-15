@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git Instalation
+title: Git Installation
 tags: Git, Visual Studio
 ---
 # GIT

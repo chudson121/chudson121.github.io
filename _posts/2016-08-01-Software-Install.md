@@ -1,3 +1,8 @@
+---
+layout: post
+title: My Software to install on new systems
+tags: Splunk
+---
 # Software installs
 
 ## Chocolatey

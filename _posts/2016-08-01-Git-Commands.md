@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git command line revert
+title: Git command line
 tags: Git, revert
 ---
 ## Git Commands
