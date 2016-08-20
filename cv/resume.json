@@ -1,0 +1,179 @@
+{
+  "basics": {
+    "name": "Chris Hudson",
+    "label": "DevOps/Release Engineer Leader",
+    "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAY5AAAAJDM4YjkzMzEwLTk1MDEtNDVlNy1hM2M3LTcwZGQ3MjZkMGZmMA.jpg",
+    "email": "Chris.Hudson.121@outlook.com",
+    "phone": "813.421.4342",
+    "website": "",
+    "summary": "Demonstrated success managing teams in the development and delivery of business-critical technology systems and solutions. Recognized for driving business innovation in a large global business environment. Adept at conceiving and implementing technical solutions to support major global business information systems while eliciting buy-in across all functions and among all stakeholders. Exceptional analytical, problem-solving and interpersonal communication skills. Managed teams up to 30. ",
+    "location": {
+      "address": "",
+      "postalCode": "33617",
+      "city": "Tampa",
+      "countryCode": "US",
+      "region": "Florida"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "",
+        "url": "https://www.linkedin.com/in/chris-hudson-03351a4"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "American Express",
+      "position": "Director Release Engineering and Automation/DevOps",
+      "website": "https://www.americanexpress.com/",
+      "startDate": "11/2011",
+      "endDate": "02/2016",
+      "summary": "Technology executive recognized for driving business innovation by transforming an organization of 800+ people globally across 7 locations and 6 time zones, from Waterfall to Agile software development practices in less than a year. Overall responsibility for strategy and operations of the release engineering/devops group for a prepaid credit & debit platform consisting over 300 applications with over 10 Million customers and nearly 1 Billion in cash movement. Under my leadership and direction coached three teams of dedicated team members and leads comprising of 30 highly skilled engineering professionals.",
+      "highlights": [
+        "Drove a DevOps mindset across the division, significantly improving collaboration between Ops and Delivery teams, resulting in highly resilient systems; boosting availability from ~98% to 99.99%.",
+        "Successfully delivered $1.5M cloud technology project, on-time/on-budget by leading cross-functional teams utilizing agile best practices.",
+        "Introduced an automated build and integrated testing system, achieving a 97% adoption rate for over 300 applications maximizing development efficiency saving $2M annually.",
+        "Accelerated software releases by 500% going from quarterly deployments to 30 per year. Improving time-to-market features releases, allowing for A/B testing, and fast failback. ",
+        "Reduced production issues by 75% within six months, allowing development teams to focus on new applications development.",
+        "Established and coached a group utilizing cross functional development staff reducing production defects from 1500 to under 50 creating the first DevOps group at American Express.",
+        "Technologies: C#, Java, Groovy, Python, MongoDb, MySql, Oracle, MSSQL, Jenkins, Git, GitHub, Stash, TFS, RabbitMQ, Reddis, Artifactory, Nuget, Openstack, VMWare, Windows Server, Redhat, Maven, Ant, Gradle, Nuget, rpm, Docker, JMeter, Junit, Selenium, Sauce Labs"
+      ]
+    },
+    {
+      "company": "PREO (Albertelli Law)",
+      "position": "Lead Software Engineer",
+      "website": "",
+      "startDate": "05/2010",
+      "endDate": "11/2011",
+      "summary": "Responsible for the alignment and delivery of technology solutions for a breakthrough new product and technology launch for liquidating owned real estate assets. Architected, developed, and implemented over 10 production systems with a real-estate focus. Led a full scrum team.  Assign and coordinate development and coding tasks of projects, often working on the most complex or risk laden modules to ensure the success of the project.",
+      "highlights": [
+        "Shaped the end-to-end architecture for the end to end continuous delivery platform with a focus on superb usability, scalability, performance and high availability.",
+        "Drove technical direction and coordinate development priorities with the architects, engineers, test automation engineers and DB Engineers.",
+        "Evaluated and recommend application and platform architectures, which include server hardware/virtualization recommendations, OS Software, application development standards, frameworks, patterns and techniques. ",
+        "Technologies: C#, MSSQL, WCF, IIS, ASP.Net 4.0, JavaScript/JQuery, Window Server"
+      ]
+    },
+    {
+      "company": "TekSystems (WelldyneRx",
+      "position": "Sr. Software Engineer",
+      "website": "",
+      "startDate": "01/2010",
+      "endDate": "05/2010",
+      "summary": "Contracted and successfully delivered a variety of internal and external 3 tier applications written in C# with WCF and SQL Server databases conformed to HIPPA regulations while leading and coaching 6 programmers. ",
+      "highlights": [
+        "Reduced upgrade costs by 500K by designing and creating web applications to interface with mainframes. ",
+        "Increased admissions by 300% by developing easy to use GUI’s for consumers to complete enrollment forms. ",
+        "Drove 250K worth of efficiency gains by analyzing and streamlining prescription processing system.",
+        "Technologies: C#, ASP.Net, MSSQL, IIS"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of South Florida",
+      "area": "Sociology",
+      "studyType": "Bachelor",
+      "startDate": "1993",
+      "endDate": "1998",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "University of South Florida",
+      "area": "Psychology",
+      "studyType": "Bachelor",
+      "startDate": "1993",
+      "endDate": "1997",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "2015 Chairman’s award for innovation",
+      "date": "12/2015",
+      "awarder": "American Express",
+      "summary": " Transforming enterprise to using Agile methodologies enabling 50+ scrum teams to increase software releases across multiple business units. This accommodated delivering features for rapidly changing market priorities."
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Business Transformation ",
+      "level": "Intermediate",
+      "keywords": [
+        "Innovative Solutions",
+        "Change and Risk Management",
+        "Software Life Cycle Management",
+        "Infrastructure Management",
+        "Agile",
+        "Scrum",
+        "LEAN",
+        "Product Flow"
+      ]
+    },
+    {
+      "name": "Release Engineering",
+      "level": "Mastery",
+      "keywords": [
+        "Devops",
+        "Continuous Integration",
+        "Continuous Deployments",
+        "Software Engineering",
+        "GIT",
+        "Stash",
+        "Package Management"
+      ]
+    },
+    {
+      "name": "Infrastructure",
+      "level": "Intermediate - Mastery",
+      "keywords": [
+        "Windows Servers",
+        "IIS",
+        "Redhat",
+        "CentOS"
+      ]
+    },
+    {
+      "name": "Cloud Infrastructure",
+      "level": "Intermediate",
+      "keywords": [
+        "Azure",
+        "Amazon Web Services (AWS)",
+        "Openstack",
+        "Azure DocumentDB"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "C# - ASP.NET",
+      "fluency": "Very"
+    },
+    {
+      "language": "TSQL (MS SQL)",
+      "fluency": "Very"
+    },
+    {
+      "language": "PL/SQL (Oracle)",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "MongoDb",
+      "fluency": "Beginner"
+    },
+    {
+      "language": "MySql",
+      "fluency": "Beginner"
+    },
+    {
+      "language": "Groovy",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [],
+  "references": []
+}
