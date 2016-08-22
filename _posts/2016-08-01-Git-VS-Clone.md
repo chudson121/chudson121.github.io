@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Git clone
-tags: Git, 
+tags: git
 ---
 # How do I clone a repo
 ## Website Navigation - 

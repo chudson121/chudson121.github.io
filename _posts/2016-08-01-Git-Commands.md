@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Git command line
-tags: Git, revert
+tags: git, revert
 ---
 ## Git Commands
 
