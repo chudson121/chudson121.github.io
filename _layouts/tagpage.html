@@ -5,6 +5,7 @@ home: passive
 tags: active
 description: Categories for posts.
 ---
+ <h1>{{ page.tag }}</h1>
 <ul>
 {% for post in site.tags[page.tag] %}
   <li>
@@ -12,6 +13,8 @@ description: Categories for posts.
   </li>
 {% endfor %}
 </ul>
+
+
 <hr/>
   {% for post in site.posts %}
   <h2 class="post_title">{{page.title}}</h2>
