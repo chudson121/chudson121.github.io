@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Git and Visual Studio
-tags: git, Visual Studio
+tags: git
 ---
 |TFVC|Git|
 |---|---|
