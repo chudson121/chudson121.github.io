@@ -7,9 +7,12 @@ description: Categories for posts.
 ---
 <!-- <h2 class="post_title">{{page.title}}</h2> -->
   {% for post in site.posts %}
-  <!-- {% for tag in post.tags %} -->
-  {% if tag == page.tag %}
-<h1>{{ tag }}</h1>
+  <!-- {% for tag in post.tags %}
+    {% if tag == page.tag %}
+  -->
+  <h1>{{ page.tag }}</h1>
+
+
 <ul>
    <li class="archive_list">
     <a class="archive_list_article_link" href='{{post.url}}'>{{post.title}}</a> - <time style="color:#666;font-size:11px;" datetime='{{post.date | date: "%Y-%m-%d"}}'>{{post.date | date: "%m/%d/%y"}}</time>
@@ -20,11 +23,11 @@ description: Categories for posts.
 <!--       {% endfor %} -->
 <!--     </ul> -->
   </li>
-  {% endif %}
+  <!-- {% endif %} -->
 
 </ul>
 
-  {% endfor %}
+  <!-- {% endfor %} -->
   {% endfor %}
 <!--
 <h1>{{ page.tag }}</h1>
