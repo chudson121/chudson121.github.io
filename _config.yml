@@ -2,10 +2,11 @@
 url: http://DevOpsBastard.com
 domain: devopsbastard.com
 contact: chris@devopsbastard.com
+contactPhone: 8134214342
 
 # blog archive at /news
-paginate: 5
-paginate_path: "blog/page/:num"
+# paginate: 50
+paginate_path: "blog/page:num"
 
 #force Jekylle to show future posts immediatly
 future: true

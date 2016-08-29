@@ -35,6 +35,7 @@ description: Links from {{site.contact}}.
 - [Clean Code](https://sites.google.com/site/unclebobconsultingllc/)
 - [Design Rules](http://martinfowler.com/bliki/BeckDesignRules.html)
 - [Sonar Qube - jenkins build](http://failedturing.blogspot.com/2015/06/building-c-project-with-msbuild-and.html)
+- [Jekyll Blog](https://jekyllrb.com/docs/variables/)
 - [Twelve Factors](https://12factor.net/)
 
 		I. Codebase
