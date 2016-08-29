@@ -54,7 +54,6 @@ ul.swatch li:first-child { webkit-border-top-left-radius: 9px; -webkit-border-bo
 .cv h1 { font-size: 32.5px; }
 img[alt=QRContact] { width: 200px; }
 
-
 .notes, .contact, .about, .cv, .error, .swatches, .tags, .links { margin-bottom: 30px; }
 
 /* Contact */
@@ -94,8 +93,7 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 	position: absolute;
     top: 150px;
     right: 50px;
-	width: 175px;
-    height: 100%; /* 100% Full-height */
+	height: 100%; /* 100% Full-height */
 	z-index: 1; /* Stay on top */
     background-color: #111; /* Black*/
 	color: #FFF; 
@@ -117,6 +115,10 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 .sidenav a:hover, a:focus, .offcanvas a:focus{
     color: #f1f1f1;
 }
+
+.sidenav ul { margin: 0 auto; }
+.sidenav ul li {line-height: 30px; } 
+
 
 .main {
     margin-right: 250px;
