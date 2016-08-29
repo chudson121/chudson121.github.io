@@ -91,17 +91,17 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 
 /* The side navigation menu */
 .sidenav {
+	position: absolute;
+    top: 75px;
+    right: 0px;
     height: 100%; /* 100% Full-height */
-	float: left;
-    position: fixed; /* Stay in place */
+	width: 100px;
+	
     z-index: 1; /* Stay on top */
-    top: 0;
-    left: 0;
     background-color: #111; /* Black*/
 	color: #FFF; 
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 75px; /* Place content 60px from the top */
-    
+    padding-left: 20px;
 }
 
 /* The navigation menu links */
