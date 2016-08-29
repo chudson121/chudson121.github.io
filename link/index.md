@@ -33,6 +33,8 @@ description: Links from {{site.contact}}.
 
 # Tech
 - [Clean Code](https://sites.google.com/site/unclebobconsultingllc/)
+- [6 figure dev](http://6figuredev.com/)
+- [Programming from scratch](http://programmingfromscratch.com/)
 - [Design Rules](http://martinfowler.com/bliki/BeckDesignRules.html)
 - [Sonar Qube - jenkins build](http://failedturing.blogspot.com/2015/06/building-c-project-with-msbuild-and.html)
 - [Jekyll Blog](https://jekyllrb.com/docs/variables/)
