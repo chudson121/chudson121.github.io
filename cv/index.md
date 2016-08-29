@@ -10,8 +10,8 @@ description: Current CV for Chris.
 ---
 - Email: [{{ site.contact }}](mailto:{{ site.contact }})
 - Phone: [813.421.4342](tel:+1{{ site.contactPhone}})
-- [Word:] ({{site.url}}/Files/resume/Hudson_Resume_2016.docx)
-- [JSON:] ({{site.url}}/Files/resume/Hudson_resume.json)
+- Resume: [Word]({{site.url}}/Files/resume/Hudson_Resume_2016.docx)
+- Resume: [JSON]({{site.url}}/Files/resume/Hudson_resume.json)
 
 
 
