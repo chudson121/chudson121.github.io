@@ -1,11 +1,11 @@
 ---
 layout: default
 title: {{site.domain}}
-cv: active
 blog: active
-tags: active
 link: active
+tags: active
 contact: active
+cv: active
 description: Hello World.
 ---
 
@@ -44,9 +44,13 @@ I like to come into an organization and using the [OODA loop](https://en.wikiped
 I focus on Microsoft's stack but also have serious dabblings in JAVA, IOS (Swift, objective-c), Python, Groovy, MongoDB, MSSQL, Oracle, Azure DocumentDB. Here are some of the tools in the workshop
 
 - Continuous Integration/Continous Deployment/Tool Chain Automation:
+	- Jenkins, TFS Builds, MSBuild, MSDeploy, sqlpackage, FastLane
 - Testing Frameworks:
+	- Junit, Selinium, Jmeter, Sauce Labs, MSTest
 - Cloud Automation:
+	- Azure, Amazon Web Services (AWS), Openstack
 - Languages:
+	- C#, Python, Powershell, Groovy, TSQL, A bunch of others with differeing levels of skill
 
 # Need Help?
 
@@ -62,6 +66,7 @@ I focus on Microsoft's stack but also have serious dabblings in JAVA, IOS (Swift
 Want help transforming your organization from waterfall to Agile? [Drop me a line](/contact) about your project if you're interested in working with me.
 
 # Devops Job Titles
+
 - Site Reliability Engineer
 - Automation Engineer
 - Release Engineer
