@@ -1,7 +1,0 @@
-<div class="notelist">
-    {% for linkdoc in site.links %}
-    <ul class="listnotes list-unstyled">
-      <li><span>{{ linkdoc.date | date_to_string }} &raquo;</span> <a href="{{ linkdoc.url }}">{{ linkdoc.title }}</a></li>
-    </ul>
-    {% endfor %}
-</div><!--/.notelist -->
