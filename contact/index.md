@@ -11,4 +11,4 @@ description: Contact information for Chris an Automation, DevTools.
 - Phone: [813.421.4342](tel:+1{{ site.contactPhone}} )
 - Website: [{{site.url}}]({{site.url}})
 - Vcard: [Download vCard]({{site.url}}/Files/contact/vCard.vcf)
-- QR: ![Contact Info]({{site.url}}/Files/contact/QR.png)
+- QR: ![QRContact]({{site.url}}/Files/contact/QR.png)
