@@ -94,6 +94,7 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 	position: absolute;
     top: 150px;
     right: 50px;
+	width: 175px;
     height: 100%; /* 100% Full-height */
 	z-index: 1; /* Stay on top */
     background-color: #111; /* Black*/
@@ -107,14 +108,13 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
     color: #fff;
     display: block;
     transition: 0.3s
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover, .offcanvas a:focus{
+.sidenav a:hover, a:focus, .offcanvas a:focus{
     color: #f1f1f1;
 }
 
