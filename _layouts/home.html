@@ -14,13 +14,11 @@
 </div>	
 <!-- Nav bar -->
 <aside class="sidenav">
-      <h1>Latest Post</h1>
-		{% for post in site.posts limit:1 %}
-			{{ post.title }}
-		{% endfor %}
-		<h1>Recent Posts</h1>
-		{% for post in site.posts offset:1 limit:2 %}
-			{{ post.title }}
+      	<h1>Recent Posts</h1>
+		{% for post in site.posts limit:5 %}
+		  <ul class="listnotes list-unstyled">
+			  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+			</ul>
 		{% endfor %}
  </aside>		
 		{% include footer.html %}	
