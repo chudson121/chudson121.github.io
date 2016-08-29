@@ -1,0 +1,61 @@
+---
+layout: post
+title: Splunk Queries
+tags: Splunk
+---
+## Splunk Queries
+[splunk quick ref quide]({{site.url}}/Files/splunkQuickRef.pdf)
+
+
+# Show by application and method
+
+	"APPLICATION=""<APPNAME>"" CALL_NAME=""<METHODNAME()"" ResultStatus=""Success"" 
+	 | eval SessionId=if(isnull(SessionId),Sessid,SessionId)
+	 | eval SessionId=if(isnull(SessionId),MESSAGE_ID,SessionId) 
+	 | eval Product=if(isnull(Product),""NULL"", Product)
+	 | eval FinalDecision=if(isnull(FinalDecision),""NULL"", FinalDecision) 
+	 | eval RegistrationType=if(isnull(RegistrationType),""NULL"", RegistrationType)   
+	 | transaction keepevicted=true SessionId
+	| eval Type = RegistrationType + ""_"" + FinalDecision
+	| stats count(eval(Product=""<PRODUCTNAME1>"")) as <PRODUCTNAME1>, 
+	count(eval(Product=""<PRODUCTNAME2>"")) as <PRODUCTNAME2>, 
+	count(eval(Product=""<PRODUCTNAME3>"")) as <PRODUCTNAME3>, 
+	count(eval(Product=""<PRODUCTNAME4>"")) as <PRODUCTNAME4>, 
+	count(eval(Product=""NULL"")) as NULL, by Type"
+
+# hourly SLA stats for a designated period.
+	"index=production sourcetype=""application_log"" host=<SERVERNAME>* CALL_NAME=""ICustomerService::<METHODNAME>"" CALL_STATUS=""CALL_ENDED"" Product=<PRODUCTNAME> OR Product=<productname> 
+	| timechart span=1h count as call_count, avg(CALL_DURATION) as avg_duration , max(CALL_DURATION) as MAX, min(CALL_DURATION) as MIN, perc95(CALL_DURATION) as 95% | where call_count>0"	
+
+# Errors
+	index=production sourcetype=application_log APPLICATION=<APPNAME> LOGLEVEL=ERROR
+
+# Regexp 
+	index="production" sourcetype=<SOURCENAME> |rex "(?<trxid>[\da-f]{8}-[\da-f]{4}-[\da-f]{4}-[\da-f]{4}-[\da-f]{12})" |transaction trxid keepevicted=true | where duration<8
+
+# Transactions taking longer than 5 seconds
+	index=production sourcetype=<SOURCEYTPE> LOGMSG="<MESSAGETOLOOKFOR>" ElapsedMs>5000 | table ElapsedMs, MESSAGE_ID, DATE | sort –ElapsedMs	
+	
+# Case statement
+	"index=production
+	(sourcetype=application_log host=<SERVERNAME>*
+	(CALL_STATUS=""CALL_ENDED"" OR CALL_STATUS=""CALL_ERRORED""))
+	
+	| eval CALL_NAME=if(isnull(CALL_NAME), ""Reversals"", CALL_NAME)
+	| eval type=case(DECISION=""Approved"", ""OK"",
+	     DECISION=""Declined"", ""OK"",
+	     DECISION=""Timeout"", ""ERROR"")
+	| timechart span=1h count, count(eval(type=""ERROR"")) as errors
+	by CALL_NAME
+
+# 500 Errors
+index=production sourcetype="iis" host="<ServerName>*" " 500 0" | stats count by host
+
+# IIS Recycle
+	index=""main"" host=""<SERVERNAME>"" recycle
+
+# Event Log - System
+	index=main host=<SERVERNAME> source="WinEventLog:System" (EventCode="5074" OR EventCode="5076" OR EventCode="5011")
+
+	
+
