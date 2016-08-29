@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: {{site.domain}}
 blog: active
 link: active
