@@ -6,14 +6,15 @@
 		{% include menu.html %}
 
     
-    <div class="main">
-<div class="container">
 
+  	<div class="columnsContainer">
+	  	<div class="leftColumn">
 			{{ content }}
     </div>
-</div>	
+
 <!-- Nav bar -->
-<aside class="sidenav">
+<div class="rightColumn">
+<aside>
       	<h1>Recent Posts</h1>
 		{% for post in site.posts limit:5 %}
 		  <ul class="sidenavlist list-unstyled">
@@ -21,6 +22,8 @@
 			</ul>
 		{% endfor %}
  </aside>		
+
+ </div>	
 		{% include footer.html %}	
 		{% include scripts.html %}
 	

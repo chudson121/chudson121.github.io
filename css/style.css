@@ -1,6 +1,59 @@
 @import url(http://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,700italic);
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+.columnsContainer, footer, header { position: relative; margin: .5em; }
+.leftColumn, .rightColumn, footer, header {  border: 1px solid  #ccc; padding: 1.25em; }
+.leftColumn { margin-bottom: .5em; }
+
+.nav {
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.nav > li,
+.nav > li > a {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+
+.inline-items {
+  margin-top: 0;
+}
+
+.inline-items li {
+  margin-left: 0;
+  border-left: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.inline-items li:first-child {
+  margin-left: 0;
+  border: none;
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.inline-items li:last-child {
+  padding-right: 0;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 47.5em ) {
+  .leftColumn { margin-right: 19.5em; }
+
+	.rightColumn { position: absolute; top: 0; right: 0; width: 18.75em; }   
+}
+
+
+
 body { padding-top: 20px; padding-bottom: 40px; font-family: 'Merriweather', Georgia, Times; font-size: 16px; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Merriweather', Georgia, Times; font-weight: 700;}
@@ -88,21 +141,22 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 	margin: 5px 15px 0px 0px;
 	font-family: 'Montserrat', Helvetica, sans-serif; }
 
-/* The side navigation menu */
+/* The side navigation menu 
 .sidenav {
 	position: absolute;
     top: 150px;
     right: 50px;
-	height: 100%; /* 100% Full-height */
-	z-index: 1; /* Stay on top */
-    background-color: #111; /* Black*/
+	height: 100%; 
+	z-index: 1; 
+    background-color: #111; 
 	color: #FFF; 
-    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-x: hidden; 
     padding-left: 20px;
 	padding-right:20px;
 }
+*/
 
-/* The navigation menu links */
+/* The navigation menu links 
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -110,16 +164,18 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
     display: block;
     transition: 0.3s
 }
-
-/* When you mouse over the navigation links, change their color */
+*/
+/* When you mouse over the navigation links, change their color 
 .sidenav a:hover, a:focus, .offcanvas a:focus{
     color: #f1f1f1;
 }
+*/
 
 ul.sidenavlist { margin: 0 auto; }
 ul.sidenavlist li {line-height: 30px; } 
 
-
+/*
 .main {
     margin-right: 250px;
 }
+*/
