@@ -7,13 +7,52 @@
 
 .columnsContainer, footer, header { position: relative; margin: .5em; }
 .leftColumn, .rightColumn, footer, header {  border: 1px solid  #ccc; padding: 1.25em; }
-.leftColumn { margin-bottom: .5em; }
+.leftColumn { margin-bottom: .5em; border: 0px solid  #000; }
 
+.dropdownmenu ul, .dropdownmenu li {
+	margin: 0;
+	padding: 0;
+}
+.dropdownmenu ul {
+	background: gray;
+	list-style: none;
+	width: 100%;
+}
+.dropdownmenu li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+.dropdownmenu a {
+	background: #30A6E6;
+	color: #FFFFFF;
+	display: block;
+	font: bold 12px/20px sans-serif;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+.dropdownmenu li:hover a {
+	background: #000000;
+}
+
+/*
 .nav {
   list-style: none;
   margin-left: 0;
   margin-bottom: 0;
   padding-left: 0;
+}
+
+.nav ul
+{
+	background: gray;
+
 }
 
 .nav > li,
@@ -44,25 +83,20 @@
 .inline-items li:last-child {
   padding-right: 0;
 }
-
+*/
 /* MEDIA QUERIES */
 @media screen and (min-width: 47.5em ) {
   .leftColumn { margin-right: 19.5em; }
-
 	.rightColumn { position: absolute; top: 0; right: 0; width: 18.75em; }   
 }
 
 
-
 body { padding-top: 20px; padding-bottom: 40px; font-family: 'Merriweather', Georgia, Times; font-size: 16px; }
-
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Merriweather', Georgia, Times; font-weight: 700;}
-
 blockquote p { font-size: 16px; line-height: 1.6em; }
 
 /* Masthead */
 .header, .footer, .header h3 { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; }
-
 .footer, .header {padding: 20px}
 
 /* Navigation */

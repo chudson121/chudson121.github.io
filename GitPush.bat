@@ -1,6 +1,6 @@
 @echo off
-d:
-cd D:\Code\chudson121.github.io\
+REM d:
+REM cd D:\Code\chudson121.github.io\
 set /p COMMITMSG="Enter Commit message: "
 
 Git fetch
