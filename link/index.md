@@ -11,7 +11,7 @@ description: Links from {{site.contact}}.
 - [Rugged Software](https://www.ruggedsoftware.org/)
 - [PRD, FRD, BRD --> Epic/Features/User Stories](https://en.wikipedia.org/wiki/Product_requirements_document)
 - [XP](http://slideplayer.com/slide/8645441/)
-
+- [Fixed Price](https://www.infoq.com/articles/agile-team-fixed-price-contract)
 
 # App Security
 - [gauntlet security scanning cloud based HAVENT USED](https://gauntlet.io/)
