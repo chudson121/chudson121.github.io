@@ -5,5 +5,6 @@ description: Credits and information about the website {{site.domain}}
 ---
 
     
-#{{site.domain}} is:
+# {{site.domain}}:
+This site is using markdown files and Jekylle to transform it to html. 
  
