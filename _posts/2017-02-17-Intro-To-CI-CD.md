@@ -2,8 +2,6 @@
 layout: post
 title: Continous Integration and Continous Deployment (CI/CD) of a .Net Core app using Jenkins and Azure.
 ---
-# Continous Integration and Continous Deployment (CI/CD) of a .Net Core app using Jenkins and Azure.
-
 - Do you want to learn how to create the process of continually compiling and running tests, so that you know your code is ready to go to production whenever your business unit wants it?
 - Have you ever said "test and prod are different"?
 - Is there any reason not to have your customers using your new code right now?
@@ -17,9 +15,9 @@ My passion is breaking down the barriers, building and improving processes, so t
 I help businesses bring their products and services to market faster through process automation and organizational changes. 
 I use continuous integration and continuous delivery (CI/CD) to move software quickly and safely from development to production.
 	
-[Blog](http://www.devopsbastard.com/)
-[GitHub](https://github.com/chudson121)
-[Email](chris@devopsbastard.com)
+- [Blog](http://www.devopsbastard.com/)
+- [GitHub](https://github.com/chudson121)
+- [Email](chris@devopsbastard.com)
 	
 # Outline:
 - Who am I
