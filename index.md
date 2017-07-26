@@ -10,10 +10,8 @@ description: Hello World.
 ---
 
 # Who Am I
+I have worked for fortune 500 companies, startups, and mid-sized corporations. I bring experience, passion, and know-how to the table. I help businesses bring their products and services to market faster through process automation and organizational changes such as implementing CI/CD pipelines and architectural updates to automate deployments for faster and more thorough releases. My passion for breaking down the barriers, building and improving processes, so that the engineering, testing, operations, and business teams work better and smarter is only second to my diligence to adhere to best practices, transparency between all levels of business and cross-departmental understanding.
 
-I am an Agile Leader specializing in DevOps including Process Automation and Release Engineering. I use continuous integration and continuous delivery (CI/CD) to move software quickly and safely from development to production. 
-
-I help businesses bring their products and services to market faster through process automation and organizational changes. My passion is breaking down the barriers, building and improving processes, so that the engineering, testing, operations, and business teams work better and smarter. I have successfully driven the strategies of automating processes to support continuous software deployments. I have experience with public/private clouds, scripting and automation with tools like Python and .Net, and a background in Agile methodologies. That’s why I love DevOps, it’s an opportunity to be involved in the entire delivery system from start to finish.
 
 DevOps aids in strategic IT goals:
 
