@@ -10,7 +10,7 @@ September 12th, 2017 at The Iron Yard St Pete.
 
 #DevOps and ALM
 
-[Powerpoint Presentation](![Overview]({{site.url}}/Files/cicdToolChain.pptx)
+[Powerpoint Presentation]({{site.url}}/Files/cicdToolChain.pptx)
 
 Do you:  
 - Have your code compiling in a clean environment 
