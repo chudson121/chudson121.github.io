@@ -5,7 +5,7 @@ tags: Devops, ALM, CICD Pipeline
 ---
 
 
-Presented at the St Pete .Net Meetup on
+Presented at the [St Pete .Net Meetup](https://www.meetup.com/St-Pete-NET-Meetup/events/242728639/) on
 September 12th, 2017 at The Iron Yard St Pete. 
 
 #DevOps and ALM
