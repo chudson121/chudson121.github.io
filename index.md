@@ -6,6 +6,7 @@ link: active
 tags: active
 contact: active
 cv: active
+speaking: active
 description: Hello World.
 ---
 
