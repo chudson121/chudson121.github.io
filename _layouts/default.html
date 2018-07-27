@@ -15,7 +15,7 @@
 		{% include footer.html %}	
 		{% include scripts.html %}
 	
-<span class="modified">updated : {{page.last_modified_at | date}}</span>
+<span class="modified">updated : {{ page.last_modified_at | date_to_long_string }}</span>
 	</body>
 
 </html>
