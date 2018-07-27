@@ -56,5 +56,8 @@ compress_html:
   clippings: all
 
 plugins:
-  - jekyll-sitemap
-  - jekyll-last-modified-at
+- jekyll-sitemap
+- jekyll-last-modified-at
+  
+gems:
+- jekyll-last-modified-at
