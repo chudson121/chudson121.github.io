@@ -6,3 +6,4 @@ else
 end
 gem 'jekyll-last-modified-at', '~> 1.0', '>= 1.0.1'
 gem "minima"
+gem 'jekyll-sitemap'

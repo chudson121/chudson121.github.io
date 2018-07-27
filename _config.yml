@@ -56,8 +56,5 @@ compress_html:
   clippings: all
 
 plugins:
-
-
-gems:
+  - jekyll-sitemap
   - jekyll-last-modified-at
-# Includes an icon in the footer for each user name you enter
