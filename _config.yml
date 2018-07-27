@@ -61,3 +61,24 @@ plugins:
   
 gems:
 - jekyll-last-modified-at
+
+
+
+  # Settings for analytics helper
+  # Set 'provider' to the analytics provider you want to use.
+  # Set 'provider' to false to turn analytics off globally.
+  #        
+#  analytics :
+#    provider : google
+#    gauges :
+#        site_id : 'SITE ID'
+#    google : 
+#        tracking_id : 'UA-'
+#    getclicky :
+#      site_id : 
+#    mixpanel :
+#        token : '_MIXPANEL_TOKEN_'
+#    piwik :
+#        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
+#        idsite : '1'                   # t
+#
