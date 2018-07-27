@@ -17,3 +17,5 @@ markdown: kramdown
 # Includes an icon in the footer for each user name you enter
 footer-links:
 
+gems:
+  - jekyll-last-modified-at
