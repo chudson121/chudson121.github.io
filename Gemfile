@@ -4,4 +4,5 @@ if Gem.win_platform?
 else
   gem 'github-pages', group: :jekyll_plugins
 end
+gem 'jekyll-last-modified-at', '~> 1.0', '>= 1.0.1'
 gem "minima"

@@ -57,4 +57,7 @@ compress_html:
 
 plugins:
 
+
+gems:
+  - jekyll-last-modified-at
 # Includes an icon in the footer for each user name you enter
