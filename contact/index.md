@@ -2,7 +2,7 @@
 layout: default
 title: Contact
 contact: active
-description: Contact information for Chris an Automation, DevTools.
+description: Contact information for Chris an Automation, DevTools, Technologist.
 ---
 
 # Chris - the DevOpsBastard

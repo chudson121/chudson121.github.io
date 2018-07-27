@@ -1,8 +1,8 @@
 BEGIN:VCARD
-N:Hudson;Chris;;The First DevOpsBastard;
-EMAIL;INTERNET:chris@devopsbastard.com
-ORG:DevOpsBastard
+N:Hudson;Chris;
+EMAIL;INTERNET:chudson121@hotmail.com
+ORG:Chris Hudson
 TEL;WORK:+1-813-421-4342
-TITLE:Owner
-URL;WORK:HTTP://WWW.DEVOPSBASTARD.COM
+TITLE:Technologist
+URL;WORK:HTTPS://chudson121.github.io
 END:VCARD
