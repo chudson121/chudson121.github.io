@@ -20,7 +20,7 @@ If product owners and delivery teams have direct access and communication to cus
 
 
 
-#References:
+# References:
 John Rauser Article: Hey! DevOps! Leave my UI alone! [https://hackernoon.com/hey-devops-leave-my-ui-alone-9a6994a2f655](https://hackernoon.com/hey-devops-leave-my-ui-alone-9a6994a2f655)
 
 Martin Fowler Article: Feature Toggles (aka Feature Flags) [https://martinfowler.com/articles/feature-toggles.html](https://martinfowler.com/articles/feature-toggles.html)
