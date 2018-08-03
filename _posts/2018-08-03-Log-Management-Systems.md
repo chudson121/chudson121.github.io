@@ -38,13 +38,14 @@ They provide both a cloud option or on premise option. I haven't used this produ
 For a small start-up I installed and configured [SEQ](https://getseq.net/) on a windows VM. Its good for small use, and very cheap Current ingest rate is averaging 800k events a day into that system, and they only have a few queries being executed on it daily.
 
 ### Investment Cost
+
 |-------|-------|
-|Seq License|690/year
-|VM Windows| $2000/year 
-|Disk|$1200/year    
-|Ip Address|$15/Year
-|Maintenance/Patch|600/Year (1 hr/month at 50/hr)
-|Total|**$4,500.00** /Year (rounded)
+|Seq License|690/year|
+|VM Windows| $2000/year| 
+|Disk|$1200/year|    
+|Ip Address|$15/Year|
+|Maintenance/Patch|600/Year (1 hr/month at 50/hr)|
+|Total|**$4,500.00** /Year (rounded)|
 
 
 # The Cloud/Saas
