@@ -3,6 +3,19 @@ url: HTTPS://chudson121.github.io
 domain: chudson121.github.io
 contact: chudson121@hotmail.com
 contactPhone: 8134214342
+title: Hudsons Hutt
+author: Chris Hudson
+email: chudson121@hotmail.com # email for form submission, you also have to change it in _js/scripts.js
+description: Information on the application lifecycle management. How to move code from source control to production and enable Business deploy and enable software efficiently and safely.
+baseurl: "/" # the subpath of your site, e.g. /blog
+sitename: Hudsons Hutt
+contact: chudson121@hotmail.com
+contactPhone: 813-421-4342
+twitter_username: MasteringMLM
+github_username: chudson121 
+facebook_username: 
+linkedin_username: chris-hudson-03351a4
+
 
 # blog archive at /news
 # paginate: 50
@@ -17,3 +30,55 @@ markdown: kramdown
 # Includes an icon in the footer for each user name you enter
 footer-links:
 
+theme: minima
+
+# Build settings
+markdown: kramdown
+highlighter: rouge # or pygments or null
+#theme: jekyll-sleek
+exclude:
+  - README.md
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+  - sleek.png
+
+include: ['_pages']
+#permalink: /blog/:year/:month/:day/:title
+sass:
+    style: compressed
+compress_html:
+  clippings: all
+
+plugins:
+- jekyll-sitemap
+- jekyll-last-modified-at
+  
+gems:
+- jekyll-last-modified-at
+
+
+
+  # Settings for analytics helper
+  # Set 'provider' to the analytics provider you want to use.
+  # Set 'provider' to false to turn analytics off globally.
+  #        
+#  analytics :
+#    provider : google
+#    gauges :
+#        site_id : 'SITE ID'
+#    google : 
+#        tracking_id : 'UA-'
+#    getclicky :
+#      site_id : 
+#    mixpanel :
+#        token : '_MIXPANEL_TOKEN_'
+#    piwik :
+#        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
+#        idsite : '1'                   # t
+#

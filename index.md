@@ -6,6 +6,7 @@ link: active
 tags: active
 contact: active
 cv: active
+speaking: active
 description: Hello World.
 ---
 
@@ -69,4 +70,6 @@ Want help transforming your organization from waterfall to Agile? [Drop me a lin
 - Automation Engineer
 - Release Engineer
 - DevTools Engineer
+
+
 
