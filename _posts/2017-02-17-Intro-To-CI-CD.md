@@ -19,7 +19,7 @@ My passion is breaking down the barriers, building and improving processes, so t
 
 - [St Pete .Net Meetup](https://www.meetup.com/St-Pete-NET-Meetup/)
 - [St Pete .Net Meetup Video's](https://www.youtube.com/channel/UC_kdG2Reanc7Bo3K0XOYZ-g)
-
+- [Slides - CI CD Tool Chain Overview]({{site.url}}/Files/cicdToolChain.pptx)
 	
 # Outline:
 - Who am I
