@@ -7,8 +7,14 @@ author: "Chris Hudson"
 meta: "" 
 --- 
 
-# TLDR;
-Full GitFlow porcess doesn't lead well to CI/CD nor does it scale across large number of applications. The GitFlow process causes large number of merge conflicts slowing development time and possibilities of re-introducing production impacting hotfixes. 
+# TLDR; 
+## Full GitFlow process
+- Doesn't lead well to CI/CD nor does it scale across large number of applications in seperate repos. 
+- Process causes large number of merge conflicts slowing development time 
+- Pncreases possibilities of re-introducing production impacting hotfixes. 
+- It increases complexity with integration testing as you increase the number of applications using the model.
+- The model does not encourage the use of feature toggles slowing MVP time to market. 
+- Feature isolation testing increases the testing environments that need to be created/maintained increasing support costs and slowing down delivery.
 
 # GitFlow Overview
 ![GitFlow](GitFlowHotfixBranch.png)
