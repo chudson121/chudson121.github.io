@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: "What-is-DevOps" 
+title: "What is DevOps" 
 description: "Devops definintion and culture of Devops" 
 categories:  Devops
 author: "Chris Hudson" 
