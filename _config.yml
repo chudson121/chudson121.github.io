@@ -30,7 +30,7 @@ markdown: kramdown
 # Includes an icon in the footer for each user name you enter
 footer-links:
 
-theme: minima
+theme: jekyll-theme-minimal
 
 # Build settings
 markdown: kramdown
