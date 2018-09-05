@@ -13,7 +13,7 @@ meta: ""
 - view the entire software delivery chain to delivery higher quality, faster delivery of applications to its users.
 - Automation is the core principle of Devops this allows us to achieve a repeatable process which we can continue to enhance.
 
-![Devops Merged responsibility](DevOps.JPG)
+![Devops Merged responsibility](/Files/blog/DevOps.JPG)
 [Devops](https://searchitoperations.techtarget.com/definition/DevOps)
 
 # Objective
@@ -30,7 +30,7 @@ To support the delivery of applications to the business, there are functions tha
 - Communication. Enabling efficiency, and identifying and removing constraints through the toolchain, promoting awareness and collaboration between DevOps team members.
 - Reporting. Detailing specific or cross-toolchain activity for accountability and evaluation purposes.
 
-![Devops Orchestration Functions](DevOpsOrchestrationFunctions.png)
+![Devops Orchestration Functions](/Files/blog/DevOpsOrchestrationFunctions.png)
 
 # CALMS
 The CALMS framework is often used as a maturity model. The acronym CALMS is credited to Jez Humble, co-author of "The DevOps Handbook."

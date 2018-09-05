@@ -18,7 +18,7 @@ The business would like to engage their customers allowing the customers to give
 - User story: As a user I want to add captchas so that bots stop spamming the site.
 - User story: As a user I want to log in with alternate credentials so that I can use Google id
 
-![Work Item decomped](WorkItemFlow.png)
+![Work Item decomped](/Files/blog/WorkItemFlow.png)
 
 # User stories 
 User stories are requirements driven directly by a users needs and wants. The “User” is generally represented by a persona or a role. 
