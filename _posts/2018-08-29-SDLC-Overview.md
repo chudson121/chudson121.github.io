@@ -7,7 +7,7 @@ author: "Chris Hudson"
 meta: "" 
 --- 
 
-![Detailed Diagram of Agile SDLC](agileLifecycleDetailed.jpg)
+![Detailed Diagram of Agile SDLC](/Files/blog/agileLifecycleDetailed.jpg)
 
 [Agile System Development Lifecycle](http://www.ambysoft.com/essays/agileLifecycle.html#Retirement) 
 

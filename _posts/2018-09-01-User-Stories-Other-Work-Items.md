@@ -39,10 +39,10 @@ Keep ui elements until later sprint when stories shift from being new functional
 	Ex. A user can select dates from a date widget on the search screen
 
 Describe the specific scene – the hero punches the criminal who fly's across the room, stopping the crime.
-![GreenHornet User Story 1](UserStoryGreenHornet1.jpg) ![GreenHornet User Story 2](UserStoryGreenHornet2.jpg)
+![GreenHornet User Story 1](/Files/blog/UserStoryGreenHornet1.jpg) ![GreenHornet User Story 2](/Files/blog/UserStoryGreenHornet2.jpg)
 
 
-![Example User Story](UserStoryAcctMgr.png) ![Example User Story - Bad guy](UserStoryMaliciousHacker.png)
+![Example User Story](/Files/blog/UserStoryAcctMgr.png) ![Example User Story - Bad guy](UserStoryMaliciousHacker.png)
 
 # Acceptance Criteria 
 - Part of the user story describing the Scenarios describe the flow through the system. They determine the input, actions taken, and output that is required for a feature to be accepted. Scenarios are where the rubber hits the road. If the scenarios are successful then QA should have no reason to reject the work that has been done. All “Happy” and “Sad” paths that have been considered should be added to a user story as scenarios. 
@@ -52,7 +52,7 @@ Describe the specific scene – the hero punches the criminal who fly's across t
 **Then** the item should disappear from the list **and** a notification should be shown with the items name and an undo link.
 
 # Example
-![Given When Then Example](UserStoryGWT.png)
+![Given When Then Example](/Files/blog/UserStoryGWT.png)
 
 ## Decomposition
 - how do we know the system is doing what we want, how do we measure it?
