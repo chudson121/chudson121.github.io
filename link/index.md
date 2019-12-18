@@ -5,7 +5,13 @@ link: active
 description: Links from {{site.contact}}.
 ---
 
+# Devops
+
+- [9 Pillars of CI/CD/CS/CT](https://devops.com/9-pillars-of-continuous-security-best-practices/)
+
+
 # Agile
+
 - [Declaration of Interdependence](http://pmdoi.org/)
 - [Agile Manifesto](http://agilemanifesto.org/)
 - [Rugged Software](https://www.ruggedsoftware.org/)
@@ -14,6 +20,11 @@ description: Links from {{site.contact}}.
 - [Fixed Price](https://www.infoq.com/articles/agile-team-fixed-price-contract)
 
 # App Security
+- [API checklist](https://github.com/shieldfy/API-Security-Checklist)
+- [Claire](https://github.com/quay/clair) - Scan for vulnerabilities in docker containers 
+- [Checkmarx](https://www.checkmarx.com/products/static-application-security-testing)
+- [DevOpsSecurity Best Practices](https://www.beyondtrust.com/blog/entry/devops-security-best-practices)
+- [Microsoft DevSecOps](https://www.microsoft.com/en-us/securityengineering/devsecops)
 - [gauntlet security scanning cloud based HAVENT USED](https://gauntlet.io/)
 - [gauntlt - scripted attack](https://github.com/gauntlt/gauntlt)
 - [Shift security to the left](http://www.devsecops.org/blog/2016/5/20/-security)
