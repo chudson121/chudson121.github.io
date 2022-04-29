@@ -6,10 +6,11 @@
 - VM
 - VM Hypervisor
 - Kubernetes: Resource Isolation, , implement distributed design patterns
-- Kubernetes Clusters 
+- Kubernetes Clusters
 - Application Containers
 
 ## Table 5: Important Aspects of Containerization (Ranked)
+
 | Aspect                         | n    |
 | ------------------------------ | ---- |
 | Process isolation              | 2026 |
@@ -37,9 +38,14 @@
 | Security                  | 24.9%            | 118 |
 | Other                     | 3.2%             | 15  |
 
-Kubernetes has improved some aspect of software architecture
-or design: building microservices (53.6%), application modularity (44.3%), architectural refactoring (36.1%), or overall system
-design (33.5%).
+## Kubernetes has improved some aspect of software architecture or design
+
+| Aspect                    | %       |
+| ------------------------- | ------- |
+| building microservices    | (53.6%) |
+| application modularity    | (44.3%) |
+| architectural refactoring | (36.1%) |
+| overall system design     | (33.5%) |
 
 - first
 - second
