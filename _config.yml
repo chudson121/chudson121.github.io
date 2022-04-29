@@ -62,7 +62,11 @@ plugins:
 gems:
 - jekyll-last-modified-at
 
-
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
