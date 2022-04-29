@@ -9,8 +9,6 @@ email: chudson121@hotmail.com # email for form submission, you also have to chan
 description: Information on the application lifecycle management. How to move code from source control to production and enable Business deploy and enable software efficiently and safely.
 baseurl: "/" # the subpath of your site, e.g. /blog
 sitename: Hudsons Hutt
-contact: chudson121@hotmail.com
-contactPhone: 813-421-4342
 twitter_username: MasteringMLM
 github_username: chudson121 
 facebook_username: 
